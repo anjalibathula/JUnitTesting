@@ -8,7 +8,9 @@ public class testAddStrings {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		jUnitFunction junitString = new jUnitFunction();
+		String result = junitString.addString("capstone", "project");
+		assertEquals("capstoneproject", result);
 	}
 
 }
